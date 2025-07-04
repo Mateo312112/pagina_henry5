@@ -280,7 +280,7 @@ h1 {
 
 }
 
-.section4{
+.section4 {
     background-color: #eceeef;
     margin-top: 80px;
     height: 230px;
@@ -288,10 +288,76 @@ h1 {
 
 }
 
-.imagenes_section3{
+.imagenes_section3 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
+
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../assets/contact-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    height: 350px;
+
+}
+
+.texto_section5 {
+    color: white;
+
+}
+
+.titulo_section5 {
+    font-size: 40px;
+
+}
+
+.parrafo_section5 {
+    margin-bottom: 30px;
+
+}
+
+.formulario input {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: #03d595;
+    background-color: transparent;
+
+}
+
+.formulario p {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #03d595;
+
+}
+
+.inputs_juntos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.input1y2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+textarea {
+    height: 65px;
+    width: 430px;
+    border-radius: 5px;
+    border-color: #03d595;
+    background-color: transparent;
 
 }
